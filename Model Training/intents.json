@@ -1,0 +1,65 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up", "Hey", "greetings"],
+      "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?", "Hey! How's your day going?", "Greetings! What can I do for you today?"],
+      "context_set": ""
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day", "bye", "cao", "see ya"],
+      "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!", "Take care!", "See you next time!"]
+    },
+    {
+      "tag": "programming",
+      "patterns": ["What is programming?", "What is coding?", "Tell me about programming", "Tell me about coding", "What is software development?"],
+      "responses": ["Programming, coding, or software development means writing computer code to automate tasks.", "Programming is the process of creating instructions for computers to follow.", "Software development is the practice of designing, coding, and maintaining software applications."]
+    },
+    {
+      "tag": "how",
+      "patterns": ["How are you?", "How is your day?", "How do you feel?", "Are you good?"],
+      "responses": ["I am fine, thanks for asking!", "I feel great!", "I'm doing well, how about you?", "I'm just a bot, but I'm feeling awesome!"]
+    },
+    {
+      "tag": "flask",
+      "patterns": ["What is Flask?", "Do you know about Flask?", "Can you tell me something about Flask?", "Explain Flask to me!"],
+      "responses": ["Flask is a Python web development framework, which is very simple and minimalistic.", "Flask is a lightweight framework used to build web applications in Python.", "Flask provides a simple and flexible way to create web applications quickly."]
+    },
+    {
+      "tag": "django",
+      "patterns": ["What is Django?", "Can you explain Django?", "Tell me about Django?", "Django framework"],
+      "responses": ["Django is a high-level Python web framework that encourages rapid development and clean, pragmatic design.", "Django helps developers build secure and scalable web applications with less effort.", "Django is known for its 'batteries-included' approach, providing built-in features for web development."]
+    },
+    {
+      "tag": "machine_learning",
+      "patterns": ["What is Machine Learning?", "Tell me about ML", "Explain Machine Learning", "What is AI?"],
+      "responses": ["Machine Learning is a subset of AI that allows computers to learn from data without being explicitly programmed.", "ML enables computers to recognize patterns and make decisions based on data.", "Machine learning is used in applications like recommendation systems, image recognition, and autonomous driving."]
+    },
+    {
+      "tag": "data_science",
+      "patterns": ["What is Data Science?", "Explain Data Science", "Tell me about Data Science"],
+      "responses": ["Data Science is the field of study that combines domain expertise, programming, and statistics to extract meaningful insights from data.", "Data Science involves analyzing and interpreting complex data to help businesses make decisions.", "Data scientists use tools like Python, R, and SQL to work with data."]
+    },
+    {
+      "tag": "database",
+      "patterns": ["What is a database?", "Tell me about databases", "Explain SQL", "What is PostgreSQL?"],
+      "responses": ["A database is a structured collection of data. SQL is a language used to interact with databases. PostgreSQL is a powerful, open-source relational database system.", "Databases store and manage data efficiently for applications.", "SQL (Structured Query Language) is used to query and manipulate databases."]
+    },
+    {
+      "tag": "cloud_computing",
+      "patterns": ["What is cloud computing?", "Explain cloud computing", "Tell me about AWS, Azure, or Google Cloud"],
+      "responses": ["Cloud computing is the delivery of computing services over the internet, allowing for scalable and on-demand resources.", "Cloud computing enables users to store and access data remotely instead of on a local server.", "AWS, Azure, and Google Cloud are popular cloud service providers offering computing, storage, and networking services."]
+    },
+    {
+      "tag": "python",
+      "patterns": ["What is Python?", "Explain Python", "Tell me about Python programming language"],
+      "responses": ["Python is a high-level, interpreted programming language known for its simplicity and versatility.", "Python is widely used in web development, data science, automation, and AI.", "Python's syntax is easy to learn, making it a great choice for beginners and professionals alike."]
+    },
+    {
+      "tag": "help",
+      "patterns": ["I need help", "Can you help me?", "Help me", "I need assistance"],
+      "responses": ["Sure! How can I assist you today?", "I'm here to help! What do you need?", "Feel free to ask me anything, and I'll do my best to assist you."]
+    }
+  ]
+}
